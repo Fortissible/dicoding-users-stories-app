@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="Typos">AndroidIntermediate_Sub1_WildanFajriAlfarabi</string>
+    <string name="login">Login</string>
+    <string name="login_page_string">Login Page!</string>
+    <string name="register_text">Signup Page!</string>
+    <string name="regis_name">Enter your name</string>
+    <string name="regis_daftar_string">Dont have account? Signup here!</string>
+    <string name="logout">Logout</string>
+    <string name="welcome_stories_act">Welcome to Storiest Activity</string>
+    <string name="select_or_take_photo">Select or Take a Photo!</string>
+    <string name="upload_by_text">Uploaded by %1$s</string>
+    <string name="register">Signup</string>
+    <string name="welcome_to_detail_story_activity">Welcome to Detail Story Activity</string>
+    <string name="photo_camerax">CameraX</string>
+    <string name="intent_camera">Camera</string>
+    <string name="intent_gallery">Gallery</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="pass_hint">Enter your password</string>
+    <string name="upload_your_photo">Upload Your Photo!</string>
+    <string name="isi_deskripsi_dari_story">Description of the Story</string>
+    <string name="token_bearer">Bearer %1$s</string>
+    <string name="this_is_the_desc">This is the desc</string>
+    <string name="name">name</string>
+    <string name="image">img</string>
+    <string name="story_description">Story Description :</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is stories description</string>
+    <string name="appwidget_text">Stories</string>
+    <string name="empty_text">NO DATA</string>
+
+    <string name="key_story_image">key_image_%1$d</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="retry">Try Again!</string>
+    <string name="use_loc"> Use This Location!</string>
+    <string name="use_location">Use Location!</string>
+    <string name="uploaded_from">Uploaded from: </string>
+    <string name="daytheme">DayTheme</string>
+    <string name="nighttheme">NightTheme</string>
+    <string name="open_map_theme">Open Map Theme</string>
+    <string name="no_stories_available">No Stories Available</string>
+</resources>

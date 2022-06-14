@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidIntermediate_Sub1_WildanFajriAlfarabi</string>
+    <string name="login">Masuk</string>
+    <string name="login_page_string">Masuk Dlu Gan!</string>
+    <string name="register_text">Daftar Dlu Gan!</string>
+    <string name="regis_name">Masukan nama Anda</string>
+    <string name="regis_daftar_string">Belum punya akun? Yuk Daftar!</string>
+    <string name="logout">Keluar</string>
+    <string name="welcome_stories_act">Selamat datang di feed!</string>
+    <string name="select_or_take_photo">Ambil atau pilih foto!</string>
+    <string name="upload_by_text">Diupload oleh %1$s</string>
+    <string name="register">Daftar</string>
+    <string name="welcome_to_detail_story_activity">Selamat datang di detail story!</string>
+    <string name="photo_camerax">CameraX</string>
+    <string name="intent_camera">Camera</string>
+    <string name="intent_gallery">Gallery</string>
+    <string name="email_hint">Masukan email Kamu</string>
+    <string name="pass_hint">Masukan password Kamu</string>
+    <string name="upload_your_photo">Upload fotomu!</string>
+    <string name="isi_deskripsi_dari_story">Isi Deskripsi dari Story</string>
+    <string name="token_bearer">Bearer %1$s</string>
+    <string name="this_is_the_desc">Ini adalah deskripsi</string>
+    <string name="name">name</string>
+    <string name="image">img</string>
+    <string name="story_description">Deksripsi cerita :</string>
+
+    <string name="add_widget">Tambahkan widget</string>
+    <string name="app_widget_description">Ini adalah stackwidget dari story</string>
+    <string name="appwidget_text">Stories</string>
+    <string name="empty_text">Tidak ada data</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="key_story_image">key_image_%1$d</string>
+    <string name="retry">Coba Lagi!</string>
+    <string name="use_loc"> Gunakan Lokasi Ini!</string>
+    <string name="use_location">Gunakan Lokasi Saat Ini!</string>
+    <string name="uploaded_from">Lokasi story: </string>
+    <string name="daytheme">DayTheme</string>
+    <string name="nighttheme">NightTheme</string>
+    <string name="open_map_theme">Open Map Theme</string>
+    <string name="no_stories_available">No Stories Available</string>
+</resources>

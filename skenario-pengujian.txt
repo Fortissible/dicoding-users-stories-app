@@ -1,0 +1,63 @@
+1. MainViewModelTest
+	a. Ketika berhasil melakukan login:
+		- Memastikan Error message null
+		
+	b. Ketika gagal melakukan login:
+		- Memastikan Error message "Email/Password wrong"
+		- Memastikan Error message tidak null
+		
+	c. Ketika berhasil melakukan register/signup:
+		- Memastikan Error message null
+		
+	d. Ketika gagal melakukan register/signup:
+		- Memastikan Error message "Signup Failed"
+		- Memastikan Error message tidak null
+		
+	e. Ketika tombol logout ditekan:
+		- Memastikan clear login preferences dihapus
+		- Memastikan Result.Success<True>
+		
+2. UserRepositoryTest 
+	a. Ketika berhasil melakukan login dengan credential valid:
+		- Memastikan Token tidak null
+		- Memastikan expected success response.body == actual success response.body
+		
+	b. Ketika gagal melakukan login dengan credential tidak valid:
+		- Memastikan Token null
+		- Memastikan expected error response.body == actual error response.body
+		
+	c. Ketika berhasil melakukan register/signup yang valid:
+		- Memastikan success response.body tidak null
+		- Memastikan expected success response.body == actual success response.body
+		
+	d. Ketika gagal melakukan register/signup tidak valid:
+		- Memastikan success response.body null
+		- Memastikan expected error response.body == actual error response.body
+
+3. StoriesRepositoryTest
+	a. Ketika memuat stories dari API sukses:
+		- memastikan hasil List stories sesuai dengan expected dataDummy List stories
+		- memastikan hasil list stories.size tidak null
+		
+	b. Ketika memuat stories (bukan guest) tanpa token tersimpan di preferences:
+		- memastikan error == true
+		- memastikan size hasil list stories == 0
+		
+	c. Ketika memuat stories dari database sukses:
+		- memastikan hasil List stories sesuai dengan expected dataDummy List stories
+		- memastikan hasil list stories.size tidak null
+		
+4. StoriesActivityTest (Integration test karena saya tidak memakai fragment)
+	a. Ketika getStories dengan API (via MockResponse) sukses:
+		- memastikan recyclerview tampil (jika tampil sizeitem  >0)
+		
+	b. Ketika getStories dengan API (via MockResponse) gagal:
+		- memastikan recyclerview tidak tampil (jika tidak tampil sizeitem  <1)
+		
+5. MainActivityTest (LargeTest Loginpage)
+	a. Ketika memasukan password dan email yang valid pada editText:
+		- memastikan tombol login dapat ditekan
+		
+	b. Ketika memasukan password dan email yang tidak valid pada editText:
+		- memastikan tombol login tidak dapat ditekan
+		
